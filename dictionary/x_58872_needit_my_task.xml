@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="My Task" max_length="40" name="x_58872_needit_my_task" type="collection">
+        <element label="MySpecificName" max_length="40" name="myspecificname" type="string"/>
+        <element default="256" label="My Display Name" max_length="40" name="my_display_name" type="string"/>
+        <element label="When Need" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element label="Requested for" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Big CC" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Type" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Type" max_length="40" name="u_string_3" type="string"/>
+    </element>
+</database>
